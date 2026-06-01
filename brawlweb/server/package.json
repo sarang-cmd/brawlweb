@@ -1,0 +1,12 @@
+{
+  "name": "brawlweb-server",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "BrawlWeb Phase 0 authoritative game server",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

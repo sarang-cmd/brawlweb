@@ -1,0 +1,123 @@
+{
+  "users": {},
+  "profiles": {
+    "gmpvohapw4b8b": {
+      "userId": "gmpvohapw4b8b",
+      "displayName": "Guest_w4b8b",
+      "avatarId": 1,
+      "totalTrophies": 0,
+      "highestTrophies": 0,
+      "totalWins": 0,
+      "totalLosses": 0,
+      "gems": 50,
+      "gold": 100,
+      "brawlTokens": 100,
+      "starPoints": 0,
+      "brawlers": {
+        "shard": {
+          "brawlerId": "shard",
+          "powerLevel": 1,
+          "powerPoints": 0,
+          "trophies": 0,
+          "highestTrophies": 0,
+          "starPower1Unlocked": false,
+          "starPower2Unlocked": false,
+          "gadgetUnlocked": false,
+          "wins": 0,
+          "losses": 0
+        }
+      },
+      "trophyRoadClaimed": [],
+      "battlePassXP": 0,
+      "battlePassTier": 0,
+      "battlePassPremium": false,
+      "battlePassClaimed": [],
+      "quests": [
+        {
+          "id": "gem10",
+          "text": "Collect 10 gems in Gem Grab",
+          "target": 10,
+          "reward": {
+            "brawlTokens": 50
+          },
+          "type": "gems",
+          "mode": "gem_grab",
+          "progress": 0,
+          "claimed": false
+        },
+        {
+          "id": "kill5",
+          "text": "Get 5 eliminations",
+          "target": 5,
+          "reward": {
+            "brawlTokens": 40
+          },
+          "type": "kills",
+          "progress": 0,
+          "claimed": false
+        },
+        {
+          "id": "win2",
+          "text": "Win 2 matches",
+          "target": 2,
+          "reward": {
+            "brawlTokens": 50
+          },
+          "type": "wins",
+          "progress": 0,
+          "claimed": false
+        }
+      ],
+      "weeklyQuests": [
+        {
+          "id": "wwin10",
+          "text": "Win 10 matches",
+          "target": 10,
+          "reward": {
+            "brawlTokens": 200,
+            "gold": 50
+          },
+          "type": "wins",
+          "progress": 0,
+          "claimed": false
+        },
+        {
+          "id": "wkill25",
+          "text": "Get 25 eliminations",
+          "target": 25,
+          "reward": {
+            "brawlTokens": 250
+          },
+          "type": "kills",
+          "progress": 0,
+          "claimed": false
+        },
+        {
+          "id": "wplay20",
+          "text": "Play 20 matches",
+          "target": 20,
+          "reward": {
+            "brawlTokens": 200,
+            "gems": 5
+          },
+          "type": "matches",
+          "progress": 0,
+          "claimed": false
+        }
+      ],
+      "lastDailyReset": "2026-6-1",
+      "lastWeeklyReset": "2026-W23",
+      "matchHistory": [],
+      "createdAt": 1780346737796
+    }
+  },
+  "sessions": {
+    "bfc759a5872520df872e037ad24678e222f61e5ee9224c1c": {
+      "userId": "gmpvohapw4b8b",
+      "createdAt": 1780346737796
+    }
+  },
+  "meta": {
+    "nextUserId": 1
+  }
+}

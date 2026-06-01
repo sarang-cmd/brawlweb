@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>BrawlWeb</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.80.1/dist/phaser.min.js"></script>
+</head>
+<body>
+  <div id="app">
+    <!-- Top bar (shown when logged in) -->
+    <header id="topbar" class="hidden">
+      <div class="brand" onclick="window.app.go('home')">⚔ BrawlWeb</div>
+      <div class="resources">
+        <div class="res" title="Trophies"><span class="icon">🏆</span><span id="res-trophies">0</span></div>
+        <div class="res" title="Gold"><span class="icon">🪙</span><span id="res-gold">0</span></div>
+        <div class="res" title="Tokens"><span class="icon">⚡</span><span id="res-tokens">0</span></div>
+        <div class="res" title="Gems"><span class="icon">💎</span><span id="res-gems">0</span></div>
+      </div>
+      <div class="user-area">
+        <span id="user-name">—</span>
+        <button class="btn btn-ghost" onclick="window.app.logout()">Logout</button>
+      </div>
+    </header>
+
+    <nav id="navbar" class="hidden">
+      <button data-screen="home"        onclick="window.app.go('home')">🏠 Home</button>
+      <button data-screen="collection"  onclick="window.app.go('collection')">🎴 Brawlers</button>
+      <button data-screen="trophyroad"  onclick="window.app.go('trophyroad')">🏆 Trophy Road</button>
+      <button data-screen="battlepass"  onclick="window.app.go('battlepass')">🎟 Battle Pass</button>
+      <button data-screen="shop"        onclick="window.app.go('shop')">🏪 Shop</button>
+      <button data-screen="leaderboard" onclick="window.app.go('leaderboard')">📊 Leaderboard</button>
+    </nav>
+
+    <main id="screen"></main>
+  </div>
+
+  <!-- Toast / notification area -->
+  <div id="toasts"></div>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
